@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0 320;0,400;0,700;1 320&display=swap" rel="stylesheet">
+	<!-- ViewPort -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- FotnAwesome -->
+	<script src="https://kit.fontawesome.com/1299eaddbb.js" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>services</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<!-- <nav class="navbar navbar-expand-md navbar-dark navbar__navbar sticky-top" style="background-color: #3a3f3f;">
+	<button class="navbar-toggler" data-toggle="collapse" data-targer="#collapse_target">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<a href="index.html" class="navbar-brand nav__logo pl-5">
+		<img src="img/logo_main.png" class="navigation__logo" alt="">
+	</a>
+
+	<div class="collapse navbar-collapse">
+		<ul class="navbar-nav ml-auto pr-5">
+			<li class="navigation__items dropdown">
+	        <a class="navigation__link dropdown-toggle nav__dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Услуги
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="services.html">3D Printing</a>
+	          <a class="dropdown-item" href="#">3D Design</a>
+	          <a class="dropdown-item" href="materials.html">Materials</a>
+	        </div>
+      	</li>
+			<li class="navigation__items">
+				<a href="" class="navigation__link"><p class="navigation__text">Наши Работы</p></a>
+			</li>
+			<li class="navigation__items">
+				<a href="" class="navigation__link"><p class="navigation__text">Галерея</p></a>
+			</li>
+			<li class="navigation__items">
+				<a href="quote.html" class="navigation__button">Сделать Заказ</a>
+			</li>
+		</ul>
+	</div>
+</nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	<a href="index.html" class="navbar-brand nav__logo">
+		<img src="img/logo_main.png" class="navigation__logo" alt="">
+	</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="navigation__items dropdown">
+	        <a class="navigation__link dropdown-toggle nav__dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Услуги
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="services.html">3D Printing</a>
+	          <a class="dropdown-item" href="#">3D Design</a>
+	          <a class="dropdown-item" href="materials.html">Materials</a>
+	        </div>
+      	</li>
+			<li class="navigation__items">
+				<a href="" class="navigation__link"><p class="navigation__text">Наши Работы</p></a>
+			</li>
+			<li class="navigation__items">
+				<a href="" class="navigation__link"><p class="navigation__text">Галерея</p></a>
+			</li>
+			<li class="navigation__items">
+				<a href="quote.html" class="navigation__button">Сделать Заказ</a>
+			</li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Quote header -->
+<div class="inner">
+<section class="quote-header">
+	<div class="container py-a">
+		<div class="row">
+			<div class="col-xl-12">
+				<h1 class="quote-header__text">Get a Quote</h1>
+			</div>
+		</div>
+	</div>
+</section>
+</div>
+
+<div class="quote-form__clip-bg">
+<section class="quote-form">
+	<div class="container">
+		<div class="quote-form__bg">
+			<div class="quote-form__title">Provide Project Details</div>
+				<div class="quote-form__text">Complete this form to tell us about your project, and a Project Manager will</br> review and respond today.</div>
+				<form>
+					<div class="form-group">
+				    <label class="quote-form__label" for="exampleInputEmail1">Name</label>
+				    <input placeholder="Your Name..." type="email" class="form-control" id="InputName">
+				  </div>
+				  <div class="form-group">
+				    <label class="quote-form__label" for="exampleInputEmail1">Email address</label>
+				    <input placeholder="Your Email..." type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+				  <div class="form-group">
+				    <label class="quote-form__label" for="exampleInputEmail1">Phone number</label>
+				    <input placeholder="Phone number..." type="email" class="form-control" id="InputPhone">
+				  </div>
+				  <div class="form-group">
+						<label class="quote-form__label" for="exampleFormControlTextarea1">What do you want to create?</label>
+					   <textarea placeholder="Write a description" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+					</div>
+					<div class="form-group">
+				    <label class="quote-form__label" for="exampleInputEmail1">Do you have a deadline?</label>
+				    <input placeholder="Your deadline..." type="email" class="form-control" id="InputPhone">
+				  </div>
+				  <div class="form-group">
+				    <label class="quote-form__label" for="exampleFormControlFile1">Add Files: Images, Drawings, etc.</label>
+				    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit Request</button>
+				</form>
+		</div>
+	</div>
+</section>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="row footer__head">
+			<div class="col-md-4 col-sm-12">
+				<a href="index.html">
+					<img src="img/logo_main.png" class="footer__logo" alt="">
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12 footer__info">
+				<h4>Контакты</h4>
+				<a href="https://goo.gl/maps/QdB6qZQ8PnrQ4DtFA">Tsytadelna St, 2А, Kyiv, 02000</a>
+				<a href="tel: +380992281488">+38 (099) 228-14-88</a>
+				<a href="mailto: service@printerok.com">service@printerok.com</a>
+			</div>
+			<div class="col-md-4 col-sm-12 footer__resources">
+				<h4>Ресурсы</h4>
+				<a href="quote.html">Сделать Заказ</a>
+				<a href="">Войти</a>
+				<a href="">Условия Обслуживания</a>
+				<a href="">Конфиденциальность</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 footer__copyright">
+				<p class="footer__copyright-text">© PrinterOk 3D Printing</p>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+
+<!-- BootStrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
